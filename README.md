@@ -17,7 +17,7 @@ npm i
 DEBUG=myapp:* npm start
 # open http://foo.localhost.com:3000/foo
 # check cookie to have @Stfoo....
-# execute fetch('http://foo.localhost.com:3000/bar', { mode: 'cors', credentials: 'include'})
+# execute fetch('http://bar.localhost.com:3000/bar', { mode: 'cors', credentials: 'include'}).then(res=>res.json()).then(res=>console.log(res))
 # check cookie to have @Stbar....
 ```
 
